@@ -107,4 +107,9 @@ public class Guesser{
                 " guesses)");
     }
 
+    @Override
+    public String toString(){
+        return "low: " + low + " high: " + high;
+    }
+
 }
